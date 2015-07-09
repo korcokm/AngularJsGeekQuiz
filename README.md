@@ -1,2 +1,3 @@
 # AngularJsGeekQuiz
-Tutorial using AngularJS plugin with MVC
+Tutorial using AngularJS plugin with MVC.
+
