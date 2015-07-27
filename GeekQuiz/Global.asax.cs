@@ -17,6 +17,9 @@ namespace GeekQuiz
     {
         protected void Application_Start()
         {
+            // --- Set the database initializer MK
+            System.Data.Entity.Database.SetInitializer(new TriviaDatabaseInitializer());
+
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
