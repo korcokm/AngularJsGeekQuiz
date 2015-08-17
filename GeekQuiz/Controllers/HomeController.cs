@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace GeekQuiz.Controllers
 {
-    [Authorize]
+    [Authorize]   // --- Restrict access to authenticated users
     public class HomeController : Controller
     {
         public ActionResult Index()
